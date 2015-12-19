@@ -5,22 +5,25 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
         <script src="js/main.js"></script>
-        <div class="chart"></div>
-        <style id="jsbin-css">
-			html{
-  				background: grey;
-  				margin:30px;
-  				height:100%;
-  				overflow:hidden;
+        <div class="container"></div>
+        <style>
+        	body{
+        		background-color : grey;
+        	}
+			*.container{
+   				display: block;
+  				background:green;
+  				position:absolute;
+  				top:0px;
+  				left:0px;
+  				right:0px;
+  				bottom:0px;
+  				margin: 15px;
 
 				}	
-			body {
-			    border:1px solid black;
-			    background: #4679BD;
-			    width:100%;
-			    height: calc(100% - 60px);
-			    padding:auto;
-			    margin:auto;
+			*.bars{
+				  background-color:orange;
+				  margin:0px;
 			 }
 			</style>
 
